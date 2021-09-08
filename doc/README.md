@@ -45,9 +45,9 @@ dependencies:
 ```
 Then run `pub get` and you are ready to start using it!
 
-The latest stable version: [![Pub Version](https://img.shields.io/pub/v/flame?style=plastic)](https://pub.dev/packages/flame/install).
+The latest stable version: [![Pub Version](https://img.shields.io/pub/v/flame?style=plastic)](https://pub.dev/packages/flame/install)
 
-The latest pre-release version: [![Pub Version](https://img.shields.io/pub/v/flame?include_prereleases&style=plastic)](https://pub.dev/packages/flame/install).
+The latest pre-release version: [![Pub Version](https://img.shields.io/pub/v/flame?include_prereleases&style=plastic)](https://pub.dev/packages/flame/install)
 
 ## Tutorials
 
@@ -55,5 +55,5 @@ There is a set of tutorials that you can follow to get started in the [`tutorial
 
 Simple examples for all features can be found in the [`examples`](https://github.com/flame-engine/flame/tree/main/examples) folder.
 
-You can also check out the [`awesome flame`](https://github.com/flame-engine/awesome-flame#articles--tutorials) repository,
-It contains quite a lot of good tutorials and articles written by the community to get you started with Flame.
+You can also check out the [`awesome-flame`](https://github.com/flame-engine/awesome-flame#articles--tutorials) repository,
+it contains quite a lot of good tutorials and articles written by the community to get you started with Flame.
