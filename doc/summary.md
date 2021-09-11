@@ -1,4 +1,5 @@
 - Getting Started
+    - [About](/about)
     - [Installation](/install)
 
 - Basic concepts
