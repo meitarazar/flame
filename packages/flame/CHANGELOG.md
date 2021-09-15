@@ -40,12 +40,23 @@
  - In debug mode `PositionComponent` now displays an indicator for the anchor position.
  - Update `Camera` docs to showcase usage with `Game` class
  - Fixed a bug with `worldBounds` being set to `null` in `Camera`
+ - Remove `.viewport` from `BaseGame`, use `camera.viewport` instead
  - `MockCanvas` is now strongly typed and matches numeric coordinates up to a tolerance
  - Add `loadAllImages` to `Images`, which loads all images from the prefixed path
  - Reviewed the keyboard API with new mixins (`KeyboardHandler` and `HasKeyboardHandlerComponents`)
  - Added `FocusNode` on the game widget and improved keyboard handling in the game.
  - Added ability to have custom mouse cursor on the `GameWidget` region
  - Change sprite component to default to the Sprite size if not provided
+ - `TextBoxComponent` waits for cache to be filled on `onLoad`
+ - `TextBoxComponent` can have customizable `pixelRatio`
+ - Add `ContainsAtLeastMockCanvas` to facilitate testing with `MockCanvas`
+ - Support for `drawImage` for `MockCanvas`
+ - `Game` is now a `Component`
+ - `ComponentEffect` is now a `Component`
+ - `HasGameRef` can now operate independently from `Game`
+ - `initialDelay` and `peakDelay` for effects to handle time before and after an effect
+ - `component.onMount` now runs every time a component gets a new parent
+ - Add collision detection between child components
 
 ## [1.0.0-releasecandidate.13]
  - Fix camera not ending up in the correct position on long jumps
